@@ -1764,25 +1764,14 @@ header {
   position: absolute;
   display: block;
   content: "";
-  width: 1px;
-  height: 15px;
+  width: 400px;
+  height: 400px;
   background: #FFF;
-  transform: skew(-17deg, 0);
-  margin: -25px 0 0 20px;
-  left: 50%
+  margin: -200px 0 0 -200px;
+  left: 50%;
+  opacity: 0
 }
 
-.gallery_txt a:after {
-  position: absolute;
-  display: block;
-  content: "";
-  width: 1px;
-  height: 15px;
-  background: #FFF;
-  transform: skew(-17deg, 0);
-  margin: 15px 0 0 -10px;
-  left: 50%
-}
 
 .gallery_txt i {
   position: absolute;;
