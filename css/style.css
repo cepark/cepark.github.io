@@ -1189,7 +1189,32 @@ header {
   margin: -22px 0 0
 }
 
+
 /*# 10. RSVP*/
+
+.images {
+  width: 900px;
+  height: 640px;
+  padding: 20px;
+  position: relative;
+  margin: 0 0 0;
+  background-position: center;
+  text-align: center;
+}
+
+.married_txt2 {
+  font: 20px/28px Yeon Sung;
+  margin: 0 0 5px 0;
+  text-align: center;
+}
+
+.married_txt2 b {
+  font: 24px/32px Yeon Sung;
+  margin: 0 0 5px 0;
+  text-align: center;
+  color: #000
+}
+
 .rsvp {
   overflow: visible;
 
