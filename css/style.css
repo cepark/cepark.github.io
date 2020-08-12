@@ -974,6 +974,7 @@ header {
 }
 
 .owl-page:after {
+  content : "";
   display: block;
   position: absolute;
   width: 16px;
