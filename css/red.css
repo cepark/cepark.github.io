@@ -5,19 +5,10 @@ h2 {
 	color:#e93b38
 }
 h2:after {
-	background: url(../images/red/bullet.png);
 	background-size: cover;
 }
 .bullet {
 	background: url(../images/red/bullet.png);
-	background-size: cover;
-}
-.im_arrows:before {
-	background: url(../images/red/im_arrow_end.png);
-	background-size: cover;
-}
-.im_arrows:after {
-	background: url(../images/red/im_arrow_start.png);
 	background-size: cover;
 }
 
@@ -40,7 +31,7 @@ h2:after {
 	background: url(../images/red/double_arrow.png);
 	background-size: cover;
 }
-
+/*
 .owl-pagination {
 	background: url(../images/red/arrow_back.png) repeat-x;
 	background-size: cover
@@ -61,7 +52,7 @@ h2:after {
 	background: url(../images/red/bullet_active.png);
 	background-size: cover
 }
-
+*/
 .story_title, .story_title i {
 	color: #e93b38;
 }
