@@ -1218,6 +1218,19 @@ header {
   color: #000
 }
 
+.married_txt3 {
+  font: 32px/36px Yeon Sung;
+  margin: 0 0 5px 0;
+  text-align: center;
+}
+
+.married_txt3 b {
+  font: 40px/44px Yeon Sung;
+  margin: 0 0 5px 0;
+  text-align: center;
+  color: #000
+}
+
 .rsvp {
   overflow: visible;
 
