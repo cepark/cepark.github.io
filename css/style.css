@@ -1193,23 +1193,26 @@ header {
 /*# 10. RSVP*/
 
 .images {
-  width: 500px;
+  width: 100%;
   height: 500px;
   position: relative;
   margin: 0px auto;
   border-radius: 5px;
   text-align: center;
   vertical-align: middle;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .married_txt2 {
-  font: 20px/28px Yeon Sung;
+  font: 16px/24px Yeon Sung;
   margin: 0 0 5px 0;
   text-align: center;
 }
 
 .married_txt2 b {
-  font: 24px/32px Yeon Sung;
+  font: 20px/28px Yeon Sung;
   margin: 0 0 5px 0;
   text-align: center;
   color: #000
