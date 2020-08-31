@@ -41,10 +41,6 @@ html {
   background-color: #fcfcf2
 }
 
-.nicescroll-rails {
-  z-index: 100 !important
-}
-
 section {
   width: 100%;
   overflow: hidden;
