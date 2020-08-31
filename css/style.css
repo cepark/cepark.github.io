@@ -67,7 +67,7 @@ a {
 }
 
 h2 {
-  font: 46px/48px Great Vibes;
+  font: 60px/66px Nanum Myeongjo;
   text-align: center;
   margin: 0 0 20px 0;
 }
@@ -81,11 +81,11 @@ h2:after {
 }
 
 h2 b {
-  font: 400 46px/48px Roboto Condensed
+  font: 400 46px/48px Nanum Myeongjo
 }
 
 h2 span {
-  font: 300 26px/40px Roboto Condensed;
+  font: 300 26px/40px Nanum Myeongjo;
   padding: 0 13px 0 0
 }
 
@@ -231,12 +231,12 @@ header {
 
 
 .message1_container .title31 {
-  width: 500px;
+  width: 100%;
   margin: 0 auto
 }
 
 .message1_container .title32 {
-  width: 500px;
+  width: 100%;
   margin: 0 auto
 }
 
@@ -261,17 +261,17 @@ header {
 }
 
 .title0 {
-  font: 300 36px/44px Roboto Condensed;
-  color: rgba(255, 255, 255, 0.5);
+  font: 300 32px/40px Nanum Myeongjo;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .title1 {
-  font: 46px/48px Great Vibes;
+  font: 70px/77px Amatic SC;
 }
 
 .title1_2 {
   text-indent: -15px;
-  font: 52px/56px Great Vibes;
+  font: 70px/77px Amatic SC;
 }
 .box{
   padding: 20px;
@@ -291,18 +291,13 @@ header {
   letter-spacing: -1px
 }
 
-.title3 {
-  font: 24px/32px Yeon Sung;
-  margin: 0 0 5px 0;
-}
-
 .title31 {
-  font: 32px/40px Yeon Sung;
+  font: 32px/40px Nanum Myeongjo;
   margin: 0 0 5px 0;
 }
 
 .title32 {
-  font: 24px/32px Yeon Sung;
+  font: 24px/32px Nanum Myeongjo;
   margin: 0 0 5px 0;
 }
 
@@ -365,11 +360,11 @@ header {
 }
 
 .photo1_txt1 {
-  font: 32px/40px Great Vibes;
+  font: 32px/40px Nanum Myeongjo;
 }
 
 .photo1_txt2 {
-  font: 24px/32px Great Vibes;
+  font: 24px/32px Nanum Myeongjo;
 }
 
 
@@ -408,12 +403,12 @@ header {
 }
 
 .photo2_txt1 {
-  font: 36px/44px Great Vibes;
+  font: 60px/66px Amatic SC;
   color: #000;
 }
 
 .photo2_txt2 {
-  font: 24px/32px Great Vibes;
+  font: 24px/32px Amatic SC;
 }
 
 
@@ -436,7 +431,7 @@ header {
   margin: 0;
   width: 100%;
   z-index: 40;
-  bottom: 450px;
+  bottom: 400px;
 }
 
 .box3{
@@ -452,12 +447,12 @@ header {
 }
 
 .photo3_txt1 {
-  font: 36px/44px Great Vibes;
+  font: 60px/66px Amatic SC;
   color: #FFF;
 }
 
 .photo3_txt2 {
-  font: 48px/56px Great Vibes;
+  font: 80px/88px Amatic SC;
 }
 
 
@@ -492,44 +487,44 @@ header {
 }
 
 .married_txt b{
-  font: 32px/40px Yeon Sung;
+  font: 32px/40px Nanum Myeongjo;
   margin: 20px 0px;
   text-align: center;
 }
 
 .married_txt1{
-  font: 16px/24px Great Vibes;
+  font: 16px/24px Nanum Myeongjo;
   margin: 20px 0px;
   text-align: center;
 }
 
 .married_txt1 b{
-  font: 24px/32px Yeon Sung;
+  font: 24px/32px Nanum Myeongjo;
   margin: 20px 0px;
   text-align: center;
 }
 
 .married_txt2 {
-  font: 16px/24px Yeon Sung;
+  font: 16px/24px Nanum Myeongjo;
   margin: 0 0 5px 0;
   text-align: center;
 }
 
 .married_txt2 b {
-  font: 20px/28px Yeon Sung;
+  font: 20px/28px Nanum Myeongjo;
   margin: 0 0 5px 0;
   text-align: center;
   color: #000
 }
 
 .married_txt3 {
-  font: 32px/36px Yeon Sung;
+  font: 32px/36px Nanum Myeongjo;
   margin: 0 0 5px 0;
   text-align: center;
 }
 
 .married_txt3 b {
-  font: 40px/44px Yeon Sung;
+  font: 40px/44px Nanum Myeongjo;
   margin: 0 0 5px 0;
   text-align: center;
   color: #000
@@ -544,27 +539,32 @@ header {
 /*# 11. Contact */
 
 h3 {
-  font: 32px/40px Great Vibes
+  font: 32px/40px Nanum Myeongjo
+}
+
+h3 b{
+  font: 44px/52px Nanum Myeongjo
 }
 
 h4 {
-  font: 28px/36px Great Vibes
+  font: 28px/32px Nanum Myeongjo
 }
 
 h4 b{
-  font: 28px/32px Great Vibes
+  font: 28px/32px Nanum Myeongjo
 }
 
-
 h5 {
-  font: 20px/28px Great Vibes
+  font: 20px/28px Nanum Myeongjo
 }
 
 h5 b{
-  font: 20px/28px Great Vibes
+  font: 20px/28px Nanum Myeongjo
 }
 
-
+h6 {
+  font : 10px/12px 
+}
 
 /*# 12. Accounts*/
 
@@ -612,11 +612,11 @@ h5 b{
   }
 
   .photo1_txt1 {
-    font: 24px/32px Great Vibes;
+    font: 22px/30px Nanum Myeongjo;
   }
 
   .photo1_txt2 {
-    font: 16px/24px Great Vibes;
+    font: 16px/24px Nanum Myeongjo;
   }
 
   .photo1_txt {
@@ -676,11 +676,11 @@ h5 b{
   }
 
   h2 {
-    font: 34px/40px Great Vibes
+    font: 34px/40px Nanum Myeongjo
   }
 
   h2 span {
-    font: 400 24px/32px Roboto Condensed
+    font: 400 24px/32px Nanum Myeongjo
   }
 
   h2 span:after {
