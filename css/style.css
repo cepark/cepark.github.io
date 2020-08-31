@@ -22,7 +22,6 @@ body {
   min-height: 100%;
   height: 100%;
   color: #000;
-  background-color: #fcfcf2
 }
 
 body b {
@@ -38,7 +37,6 @@ html {
   min-height: 100%;
   position: relative;
   height: 100%;
-  background-color: #fcfcf2
 }
 
 .nicescroll-rails {
@@ -64,6 +62,13 @@ a {
   padding: 60px 16px 48px;
   max-width: 970px
 
+}
+
+.container2 {
+  position: relative;
+  z-index: 1;
+  padding: 60px 60px 48px;
+  max-width: 970px
 }
 
 h2 {
@@ -226,7 +231,6 @@ header {
   z-index: 2;
   position: relative;
   text-align: left;
-
 }
 
 
@@ -333,7 +337,7 @@ header {
   background-size: 640px auto;
   width: 100%;
   height: 100%;
-  max-height: 640px;
+  max-height: 440px;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
@@ -344,14 +348,14 @@ header {
   position: absolute;
   margin: 0;
   width: 100%;
-  bottom: 200px;
+  bottom: 150px;
 }
 
 .box2{
-  padding: 20px;
+  padding: 10px;
   background: rgb(34, 34, 34); /* for IE */
   background: rgba(34, 34, 34, 0);
-  width: 50%;
+  width: 70%;
   overflow: none;
   display: block;
   margin: auto;
@@ -471,6 +475,18 @@ header {
   background-attachment: scroll;
 }
 
+.photo42 {
+  background-size: 640px auto;
+  width: 100%;
+  height: 100%;
+  max-height: 440px;
+  margin:20px 0px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
 /*# 10. Location*/
 .images {
   width: 100%;
@@ -505,13 +521,13 @@ header {
 }
 
 .married_txt2 {
-  font: 16px/24px Nanum Myeongjo;
+  font: 14px/20px Nanum Myeongjo;
   margin: 0 0 5px 0;
   text-align: center;
 }
 
 .married_txt2 b {
-  font: 20px/28px Nanum Myeongjo;
+  font: 16px/22px Nanum Myeongjo;
   margin: 0 0 5px 0;
   text-align: center;
   color: #000
@@ -543,7 +559,7 @@ h3 {
 }
 
 h3 b{
-  font: 44px/52px Nanum Myeongjo
+  font: 36px/44px Nanum Myeongjo
 }
 
 h4 {
@@ -612,19 +628,11 @@ h6 {
   }
 
   .photo1_txt1 {
-    font: 22px/30px Nanum Myeongjo;
+    font: 20px/28px Nanum Myeongjo;
   }
 
   .photo1_txt2 {
-    font: 16px/24px Nanum Myeongjo;
-  }
-
-  .photo1_txt {
-    position: absolute;
-    margin: 0;
-    width: 100%;
-    z-index: 40;
-    bottom: 200px;
+    font: 18px/24px Nanum Myeongjo;
   }
 
   .footer_over {
@@ -655,28 +663,94 @@ h6 {
 }
 
 @media (max-width: 480px) {
+  .container2 {
+    position: relative;
+    z-index: 1;
+    padding: 0px 20px 0px;
+    max-width: 970px;
+    max-height: 640px;
+  }
+
+  .title31 {
+    font: 24px/32px Nanum Myeongjo;
+    margin: 0 0 5px 0;
+  }
+
+  .title32 {
+    font: 16px/24px Nanum Myeongjo;
+    margin: 0 0 5px 0;
+  }
+
+  .page {
+    min-height: 100%;
+    position: relative;
+    height: 100%;
+  }
+  .home_intro {
+    background-size: 480px auto;
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+  }
+
+  .home_txt {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    z-index: 40;
+    bottom: 220px;
+  }
+
+  .title0 {
+    font: 300 30px/36px Nanum Myeongjo;
+    color: rgba(255, 255, 255, 0.3);
+  }
   .story_txt p {
     margin: 0;
   }
 
-  .owl-controls {
-    zoom:0.5;
+  .photo1 {
+    background-size: 480px auto;
+    width: 100%;
+    height: 100%;
+    max-height: 320px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
   }
 
-  .gallery .owl-buttons {
-    margin: -40px 0 0 0
+  .photo1_txt {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    z-index: 40;
+    bottom: 40px;
+  }
+  
+  .photo1_txt1 {
+    font: 20px/24px Nanum Myeongjo;
   }
 
-  .owl-carousel:hover .owl-next, .owl-carousel:hover .owl-prev {
-    background: none !important
+  .photo1_txt2 {
+    font: 14px/1px Nanum Myeongjo;
   }
 
-  .im1, .im2 {
-    display: none;
+  .photo3_txt1 {
+    font: 40px/48px Amatic SC;
+    color: #FFF;
+  }
+
+  .photo3_txt2 {
+    font: 60px/66px Amatic SC;
   }
 
   h2 {
-    font: 34px/40px Nanum Myeongjo
+    font: 28px/36px Nanum Myeongjo
   }
 
   h2 span {
@@ -685,6 +759,34 @@ h6 {
 
   h2 span:after {
     margin: 0 0 0 10px
+  }
+
+  h3 {
+    font: 20px/28px Nanum Myeongjo
+  }
+
+  h3 b {
+    font: 24px/32px Nanum Myeongjo
+  }
+
+  h4 {
+    font: 20px/24px Nanum Myeongjo
+  }
+
+  h4 b{
+    font: 20px/24px Nanum Myeongjo
+  }
+
+  h5 {
+    font: 14px/18px Nanum Myeongjo
+  }
+
+  h5 b {
+    font: 22px/30px Nanum Myeongjo
+  }
+
+  h6 {
+    font : 10px/12px 
   }
 
   .sub_menu {
