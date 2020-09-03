@@ -39,10 +39,6 @@ html {
   height: 100%;
 }
 
-.nicescroll-rails {
-  z-index: 100 !important
-}
-
 section {
   width: 100%;
   overflow: hidden;
@@ -53,70 +49,19 @@ section {
 
 a {
   color: #6F6F6F;
-
 }
 
 .container {
   position: relative;
   z-index: 1;
-  padding: 60px 16px 48px;
-  max-width: 970px
-
-}
-
-.container2 {
-  position: relative;
-  z-index: 1;
-  padding: 60px 60px 48px;
+  padding: 40px 16px 40px;
   max-width: 970px
 }
 
-h2 {
-  font: 60px/66px Nanum Myeongjo;
-  text-align: center;
-  margin: 0 0 20px 0;
-}
-
-h2:after {
-  display: block;
-  content: "";
-  width: 16px;
-  height: 26px;
-  margin: 12px auto 0
-}
-
-h2 b {
-  font: 400 46px/48px Nanum Myeongjo
-}
-
-h2 span {
-  font: 300 26px/40px Nanum Myeongjo;
-  padding: 0 13px 0 0
-}
-
-h2 span:after {
-  display: inline-block;
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 40px;
-  transform: rotate(17deg);
-  margin: 9px 0 0 13px;
-  background: #D9C6B1
-}
-
-hr {
-  max-width: 500px;
-  border: 0;
-  height: 1px;
-  background: #757575;
-  margin: 48px auto 0
-}
-
-.btn {
+.btn1 {
   font: 500 14px Roboto Condensed;
   padding: 8px;
-  border-radius: 0;
+  border-radius: 1;
   margin: 20px 4px;
   overflow: hidden;
   position: relative;
@@ -131,428 +76,100 @@ hr {
   color: #FFF !important
 }
 
-/*# 2. White  Text*/
-.white_txt {
-  color: #FFF;
-  background-color: #65666B
-}
-
-.white_txt h2 {
-  color: #FFF
-}
-
-.white_txt h2 span:after {
-  background: #FFF
-}
-
-.white_txt .slash i {
-  background: #FFF
-}
-
-.white_txt a {
-  color: #FFF
-}
-
-.black_txt {
-  color: #000;
-  background-color: #FFF
-}
-
-/*# 3. Header*/
-header {
-  position: fixed;
-  height: 64px;
-  width: 100%;
-  z-index: 10;
-}
-
 /*# 4. Intro*/
 .home_intro {
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  text-align: center;
-  vertical-align: middle;
-  
-}
-
-.into_firefly {
-  width: 100%;
-  height: 100%;
-  z-index: 3;
-  position: absolute
-}
-
-.into_firefly div {
-  border-radius: 50%;
-  opacity: 0.8
-}
-
-.home_txt {
-  position: absolute;
-  margin: 0;
-  width: 100%;
-  z-index: 40;
-  bottom: 400px;
-}
-
-@keyframes mouse-down {
-  0% {
-    top: 0px;
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    top: 12px;
-    opacity: 0;
-  }
-}
-
-
-
-/*# 5. Message 1 */
-.message1 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left;
-}
-
-.message1 .container {
-}
-
-.message1_container {
-  z-index: 2;
-  position: relative;
-  text-align: left;
-}
-
-
-.message1_container .title31 {
-  width: 100%;
-  margin: 0 auto
-}
-
-.message1_container .title32 {
-  width: 100%;
-  margin: 0 auto
-}
-
-.message1 .over {
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  display: block;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0
-}
-
-.when_where h2 {
-  margin: 0 0 50px 0;
-  opacity: 0.8
-}
-
-.when_where h2:after {
-  display: none
-}
-
-.title0 {
-  font: 300 32px/40px Nanum Myeongjo;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.title1 {
-  font: 70px/77px Amatic SC;
-}
-
-.title1_2 {
-  text-indent: -15px;
-  font: 70px/77px Amatic SC;
-}
-.box{
-  padding: 20px;
-  background: rgb(34, 34, 34); /* for IE */
-  background: rgba(34, 34, 34, 0.5);
-  width: 100%;
-  overflow: none;
-  display: block;
-  margin: auto;
-  border-radius: 2px;
-  color: rgba(255, 255, 255, 0.85);
-}
-
-.title2 {
-  font: 56px/60px Roboto Condensed;
-  margin: 0 0 13px 0;
-  letter-spacing: -1px
-}
-
-.title31 {
-  font: 32px/40px Nanum Myeongjo;
-  margin: 0 0 5px 0;
-}
-
-.title32 {
-  font: 24px/32px Nanum Myeongjo;
-  margin: 0 0 5px 0;
-}
-
-.title4 {
-  font: 300 34px/40px Roboto Condensed;
-  text-transform: uppercase
-}
-
-.title5 {
-  font: 300 14px/24px Roboto Condensed;
-  text-transform: uppercase;
-  margin: -5px 0 20px
-}
-
-@keyframes camera-pulse {
-  0% {
-    transform: scale(1);
-    opacity: 0.6
-  }
-  30% {
-    transform: scale(1.3);
-    opacity: 1
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0.6
-  }
-}
-
-/*# 6. Photo1*/
-
-.photo1 {
   background-size: 640px auto;
   width: 100%;
-  height: 100%;
-  max-height: 440px;
+  height: 1475px;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
 }
 
-.photo1_txt {
-  position: absolute;
-  margin: 0;
+/*# 5. Photo1*/
+
+.photo1 {
+  background-size: 640px auto;
   width: 100%;
-  bottom: 150px;
+  height: 2500px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
 }
-
-.box2{
-  padding: 10px;
-  background: rgb(34, 34, 34); /* for IE */
-  background: rgba(34, 34, 34, 0);
-  width: 70%;
-  overflow: none;
-  display: block;
-  margin: auto;
-  border-radius: 2px;
-  color: rgba(255, 255, 255, 0.85);
-}
-
-.photo1_txt1 {
-  font: 32px/40px Nanum Myeongjo;
-}
-
-.photo1_txt2 {
-  font: 24px/32px Nanum Myeongjo;
-}
-
 
 /*# 7. Photo2*/
 
 .photo2 {
   background-size: 640px auto;
   width: 100%;
-  height: 100%;
-  max-height: 640px;
-  margin:20px 0px;
+  height: 3000px;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
 }
 
-.photo2_txt {
+/*# 8. Photo_TP*/
+
+.photo_tp{
+  background-size: 640px auto;
+  width: 100%;
+  height: 640px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.photo3_btn {
   position: absolute;
   margin: 0;
   width: 100%;
-  z-index: 40;
-  bottom: 500px;
+  bottom: 80px;
 }
 
-.box2{
-  padding: 20px;
-  background: rgb(34, 34, 34); /* for IE */
-  background: rgba(34, 34, 34, 0);
-  width: 70%;
-  overflow: none;
-  display: block;
-  margin: auto;
-  border-radius: 2px;
-  color: rgba(255, 255, 255, 0.85);
+.btn {
+  font:500 28px Nanum Myeongjo;
+  border-radius: 1;
+  padding: 8px 6px;
+  border: 1px solid gray;
+  overflow: hidden;
+  position: relative;
+  background: none;
+  min-width: 88px;
+  min-height: 36px;
+  transition: 0.5s all;
 }
 
-.photo2_txt1 {
-  font: 60px/66px Amatic SC;
-  color: #000;
-}
+/*# 9. Location */
 
-.photo2_txt2 {
-  font: 24px/32px Amatic SC;
-}
-
-
-/*# 8. Photo3*/
-
-.photo3 {
+.photo_location {
   background-size: 640px auto;
   width: 100%;
-  height: 100%;
-  max-height: 640px;
-  margin:20px 0px;
+  height: 1400px;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
 }
 
-.photo3_txt {
+.location_link{
   position: absolute;
   margin: 0;
   width: 100%;
-  z-index: 40;
-  bottom: 400px;
-}
-
-.box3{
-  padding: 20px;
-  background: rgb(34, 34, 34); /* for IE */
-  background: rgba(34, 34, 34, 0);
-  width: 70%;
-  overflow: none;
-  display: block;
-  margin: auto;
-  border-radius: 2px;
-  color: rgba(255, 255, 255, 0.85);
-}
-
-.photo3_txt1 {
-  font: 60px/66px Amatic SC;
-  color: #FFF;
-}
-
-.photo3_txt2 {
-  font: 80px/88px Amatic SC;
-}
-
-
-
-/*# 9. Photo4567*/
-
-.photo4 {
-  background-size: 640px auto;
-  width: 100%;
-  height: 100%;
-  max-height: 640px;
-  margin:20px 0px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
-}
-
-.photo42 {
-  background-size: 640px auto;
-  width: 100%;
-  height: 100%;
-  max-height: 440px;
-  margin:20px 0px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
-}
-
-/*# 10. Location*/
-.images {
-  width: 100%;
-  max-width: 500px;
-  height: 468px;
-  position: relative;
-  margin: 0px auto;
-  border-radius: 5px;
-  text-align: center;
-  vertical-align: middle;
-  background-size: 500px 468px;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
-.married_txt b{
-  font: 32px/40px Nanum Myeongjo;
-  margin: 20px 0px;
+  bottom: 830px;
   text-align: center;
 }
 
-.married_txt1{
-  font: 16px/24px Nanum Myeongjo;
-  margin: 20px 0px;
-  text-align: center;
-}
-
-.married_txt1 b{
-  font: 24px/32px Nanum Myeongjo;
-  margin: 20px 0px;
-  text-align: center;
-}
-
-.married_txt2 {
-  font: 14px/20px Nanum Myeongjo;
-  margin: 0 0 5px 0;
-  text-align: center;
-}
-
-.married_txt2 b {
-  font: 16px/22px Nanum Myeongjo;
-  margin: 0 0 5px 0;
-  text-align: center;
-  color: #000
-}
-
-.married_txt3 {
-  font: 32px/36px Nanum Myeongjo;
-  margin: 0 0 5px 0;
-  text-align: center;
-}
-
-.married_txt3 b {
-  font: 40px/44px Nanum Myeongjo;
-  margin: 0 0 5px 0;
-  text-align: center;
-  color: #000
-}
-
-.location {
-  overflow: visible;
-
-}
+  
 
 
 /*# 11. Contact */
+h2 {
+  font: 28px/32px Nanum Myeongjo
+}
 
 h3 {
   font: 32px/40px Nanum Myeongjo
@@ -575,7 +192,7 @@ h5 {
 }
 
 h5 b{
-  font: 20px/28px Nanum Myeongjo
+  font: 24px/32px Nanum Myeongjo
 }
 
 h6 {
@@ -584,181 +201,84 @@ h6 {
 
 /*# 12. Accounts*/
 
+.photo_a{
+  background-size: 640px auto;
+  width: 100%;
+  height: 640px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+}
 
+.account{
+  background-size: 640px auto;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+}
 
-
-
+.btn2 {
+  font:500 20px Nanum Myeongjo;
+  border-radius: 1;
+  padding: 8px 6px;
+  border: 1px solid gray;
+  overflow: hidden;
+  position: relative;
+  background: none;
+  min-width: 88px;
+  min-height: 36px;
+  transition: 0.5s all;
+}
 
 /*# 13. Responsive*/
 
-@media (max-width: 992px) {
-  .owl-controls {
-    margin: 0 0 20px 0
+@media (max-width: 375px) {
+  .home_intro {
+    background-size:375px auto;
+    height:864px;
   }
-
-  .gallery .owl-buttons {
-    margin: -70px 0 0 0
-  }
-
-}
-
-@media (max-width: 768px) {
-  .story_txt p, .story_title {
-    margin: 0;
-  }
-
+  
   .photo1 {
-    background-attachment: scroll;
+    background-size: 375px auto;
+    height:1464px;
   }
 
   .photo2 {
-    background-attachment: scroll;
+    background-size: 375px auto;
+    height:1757px;
   }
 
-  .hotel {
-    background-attachment: scroll;
+  .photo_tp {
+    background-size: 375px auto;
+    height:375px;
   }
 
-  .when_where {
-    background-attachment: scroll;
-  }
-
-  .images {
-    background-attachment: scroll;
-  }
-
-  .photo1_txt1 {
-    font: 20px/28px Nanum Myeongjo;
-  }
-
-  .photo1_txt2 {
-    font: 18px/24px Nanum Myeongjo;
-  }
-
-  .footer_over {
-    display: none
-  }
-
-  .envelope_back, .envelope_front {
-    display: none
-  }
-
-  #envelope {
-    min-height: 200px !important;
-  }
-
-  .paper {
-    width: 100%;
-    height: auto;
-    background-size: cover !important;
-    left: 0;
-    margin: 0 !important;
-    background-repeat: no-repeat !important;
-  }
-
-  .im1, .im2 {
-    display: none;
-  }
-
-}
-
-@media (max-width: 480px) {
-  .container2 {
-    position: relative;
-    z-index: 1;
-    padding: 0px 20px 0px;
-    max-width: 970px;
-    max-height: 640px;
-  }
-
-  .title31 {
-    font: 24px/32px Nanum Myeongjo;
-    margin: 0 0 5px 0;
-  }
-
-  .title32 {
-    font: 16px/24px Nanum Myeongjo;
-    margin: 0 0 5px 0;
-  }
-
-  .page {
-    min-height: 100%;
-    position: relative;
-    height: 100%;
-  }
-  .home_intro {
-    background-size: 480px auto;
-    width: 100%;
-    height: 100%;
-    max-height: 600px;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-  }
-
-  .home_txt {
+  .photo3_btn {
     position: absolute;
     margin: 0;
     width: 100%;
-    z-index: 40;
-    bottom: 220px;
+    bottom: 40px;
   }
 
-  .title0 {
-    font: 300 30px/36px Nanum Myeongjo;
-    color: rgba(255, 255, 255, 0.3);
-  }
-  .story_txt p {
-    margin: 0;
+  .btn {
+    font:500 20px Nanum Myeongjo;
   }
 
-  .photo1 {
-    background-size: 480px auto;
-    width: 100%;
-    height: 100%;
-    max-height: 320px;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
+  .photo_location {
+    background-size: 375px auto;
+    height:820px;
   }
 
-  .photo1_txt {
-    position: absolute;
-    margin: 0;
-    width: 100%;
-    z-index: 40;
-    bottom: 30px;
-  }
-  
-  .photo1_txt1 {
-    font: 20px/24px Nanum Myeongjo;
+  .location_link{
+    bottom: 477px;
+    text-align: center;
   }
 
-  .photo1_txt2 {
-    font: 14px/1px Nanum Myeongjo;
-  }
-
-  .photo3_txt1 {
-    font: 40px/48px Amatic SC;
-    color: #FFF;
-  }
-
-  .photo3_txt2 {
-    font: 60px/66px Amatic SC;
-  }
-
-  h2 {
-    font: 28px/36px Nanum Myeongjo
-  }
-
-  h2 span {
-    font: 400 24px/32px Nanum Myeongjo
-  }
-
-  h2 span:after {
-    margin: 0 0 0 10px
+  .map-icon{
+    width: 40px;
   }
 
   h3 {
@@ -789,44 +309,59 @@ h6 {
     font : 10px/12px 
   }
 
-  .sub_menu {
-    width: 100%
+  .tsicon {
+    width : 35px;
   }
 
-  .sub_menu.active {
-    width: 100%
+  .photo_a {
+    background-size: 375px auto;
+    height:375px;
+    background-position: top;
   }
 
-  .sub_img {
-    display: none
+  .btn2 {
+    font:500 12px Nanum Myeongjo;
+    border-radius: 1;
+    border: 1px solid gray;
+    overflow: hidden;
+    position: relative;
+    background: none;
+    min-width: 0;
+    min-height: 0;
+    transition: 0.5s all;
   }
 
-  .photocamera span {
-    display: none
+
+}
+
+@media (max-width: 360px) {
+  
+  h3 {
+    font: 20px/28px Nanum Myeongjo
   }
 
-  .gallery_item {
-    width: 100%
+  h3 b {
+    font: 24px/32px Nanum Myeongjo
   }
 
-  .paper h2 {
-    font-size: 28px !important
+  h4 {
+    font: 20px/24px Nanum Myeongjo
   }
 
-  .paper h2 span {
-    font-size: 18px !important
+  h4 b{
+    font: 20px/24px Nanum Myeongjo
   }
 
-  .form-control {
-    font-size: 14px !important
+  h5 {
+    font: 14px/18px Nanum Myeongjo
   }
 
-  .envelope p {
-    display: none
+  h5 b {
+    font: 22px/30px Nanum Myeongjo
   }
 
-  .footer {
-    background-attachment: scroll
+  h6 {
+    font : 10px/12px 
   }
 
   .story_img {
@@ -848,57 +383,4 @@ h6 {
     position: absolute;
     width: 100%;
   }
-
-  .story_plane {
-    width: 100%;
-    left: 0;
-    background: none
-  }
-
-  .story_txt {
-    padding: 0 24px;
-    margin: 220px 0 0
-  }
-
-  .story_back, .story_img_plane, .story_title:after, .story_title:before, .owl-pagination {
-    display: none
-  }
-
-  .youtube {
-    margin: -11px 0 0 -20px
-  }
-
-  .story_title {
-    margin: 0
-  }
-
-  .story_wrapper .owl-wrapper-outer {
-    box-shadow: 0 0 0;
-    background: none
-  }
-
-  .story_item, .guest_wrapper {
-    height: auto;
-  }
-
-  .guest_wrapper .owl-buttons, .registry .owl-buttons {
-    display: block;
-  }
-
-}
-
-a.maplink:hover {
-  text-decoration: none;
-}
-
-a.maplink:link {
-  text-decoration: none;
-}
-
-a.maplink:active {
-  text-decoration: none;
-}
-
-a.maplink:visited {
-  text-decoration: none;
 }
