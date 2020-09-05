@@ -17,15 +17,22 @@
 */
 
 /*# 1. Main Styles*/
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-  font: 300 15px/24px Nanum Myeongjo;
+  font: 300 15px/24px MapoFlowerIsland;
   min-height: 100%;
   height: 100%;
   color: #000;
 }
 
 body b {
-  font: 500 15px/24px Nanum Myeongjo;
+  font: 500 15px/24px MapoFlowerIsland;
 }
 
 html {
@@ -59,7 +66,7 @@ a {
 }
 
 .btn1 {
-  font: 500 14px Nanum Myeongjo;
+  font: 500 14px MapoFlowerIsland;
   padding: 8px;
   border-radius: 1;
   margin: 20px 4px;
@@ -80,7 +87,7 @@ a {
 .home_intro {
   background-size: 640px auto;
   width: 100%;
-  height: 1475px;
+  height: 2966px;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
@@ -92,7 +99,7 @@ a {
 .photo1 {
   background-size: 640px auto;
   width: 100%;
-  height: 2500px;
+  height: 3000px;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,7 +111,7 @@ a {
 .photo2 {
   background-size: 640px auto;
   width: 100%;
-  height: 3000px;
+  height: 1650px;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
@@ -116,7 +123,7 @@ a {
 .photo_tp{
   background-size: 640px auto;
   width: 100%;
-  height: 640px;
+  height: 1256px;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
@@ -127,110 +134,80 @@ a {
   position: absolute;
   margin: 0;
   width: 100%;
-  bottom: 80px;
+  bottom: 930px;
 }
 
 .btn {
-  font:500 28px Nanum Myeongjo;
-  border-radius: 1;
+  font:500 20px MapoFlowerIsland;
   padding: 8px 6px;
-  border: 1px solid gray;
+  border: none;
   overflow: hidden;
   position: relative;
   background: none;
   min-width: 88px;
   min-height: 36px;
   transition: 0.5s all;
-}
-
-/*# 9. Location */
-
-.photo_location {
-  background-size: 640px auto;
-  width: 100%;
-  height: 1400px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
+  color: #DB7093;
 }
 
 .location_link{
   position: absolute;
   margin: 0;
   width: 100%;
-  bottom: 830px;
+  bottom: 425px;
   text-align: center;
 }
 
-  
+.map-icon{
+  border:1px solid;
+  border-color: #c4c4c4;
+  border-radius: 8px
+}
+
+/*# 7. Photo2*/
+
+.photo4 {
+  background-size: 640px auto;
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
 
 
 /*# 11. Contact */
 h2 {
-  font: 28px/32px Nanum Myeongjo
+  font: 28px/32px MapoFlowerIsland
 }
 
 h3 {
-  font: 32px/40px Nanum Myeongjo
+  font: 20px/28px MapoFlowerIsland
 }
 
 h3 b{
-  font: 36px/44px Nanum Myeongjo
+  font: 24px/32px MapoFlowerIsland
 }
 
 h4 {
-  font: 28px/32px Nanum Myeongjo
+  font: 20px/28px MapoFlowerIsland
 }
 
 h4 b{
-  font: 28px/32px Nanum Myeongjo
+  font: 20px/28px MapoFlowerIsland
 }
 
 h5 {
-  font: 20px/28px Nanum Myeongjo
+  font: 20px/28px MapoFlowerIsland
 }
 
 h5 b{
-  font: 24px/32px Nanum Myeongjo
+  font: 24px/32px MapoFlowerIsland
 }
 
 h6 {
   font : 10px/12px 
-}
-
-/*# 12. Accounts*/
-
-.photo_a{
-  background-size: 640px auto;
-  width: 100%;
-  height: 640px;
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: scroll;
-}
-
-.account{
-  background-size: 640px auto;
-  width: 100%;
-  height: 400px;
-  position: relative;
-  text-align: center;
-  vertical-align: top;
-}
-
-.btn2 {
-  font:500 20px Nanum Myeongjo;
-  border-radius: 1;
-  padding: 8px 6px;
-  border: 1px solid gray;
-  overflow: hidden;
-  position: relative;
-  background: none;
-  min-width: 88px;
-  min-height: 36px;
-  transition: 0.5s all;
 }
 
 /*# 13. Responsive*/
@@ -238,71 +215,76 @@ h6 {
 @media (max-width: 375px) {
   .home_intro {
     background-size:375px auto;
-    height:864px;
+    height:1737px;
   }
   
   .photo1 {
     background-size: 375px auto;
-    height:1464px;
+    height:1757px;
   }
 
   .photo2 {
     background-size: 375px auto;
-    height:1757px;
+    height:966px;
   }
 
   .photo_tp {
     background-size: 375px auto;
-    height:375px;
+    height:735px;
   }
 
   .photo3_btn {
     position: absolute;
     margin: 0;
     width: 100%;
-    bottom: 40px;
+    bottom: 540px;
+  }
+
+  .photo4 {
+    background-size: 375px auto;
+    height:468px;
   }
 
   .btn {
-    font:500 20px Nanum Myeongjo;
-  }
-
-  .photo_location {
-    background-size: 375px auto;
-    height:820px;
+    font:500 15px MapoFlowerIsland;
+    min-width: 40px;
+    color: #DB7093;
+    height: 10px;
+    padding: 0px 0px;
+    border: none;
   }
 
   .location_link{
-    bottom: 477px;
+    bottom: 243px;
     text-align: center;
   }
 
   .map-icon{
-    width: 40px;
+    width: 25px;
   }
 
   h3 {
-    font: 20px/28px Nanum Myeongjo
+    font: 14px/20px MapoFlowerIsland
   }
 
   h3 b {
-    font: 24px/32px Nanum Myeongjo
+    font: 16px/24px MapoFlowerIsland
   }
 
   h4 {
-    font: 20px/24px Nanum Myeongjo
+    font: 14px/20px MapoFlowerIsland
   }
 
   h4 b{
-    font: 20px/24px Nanum Myeongjo
+    font: 14px/20px MapoFlowerIsland
   }
 
   h5 {
-    font: 14px/18px Nanum Myeongjo
+    font: 14px/18px MapoFlowerIsland
   }
 
   h5 b {
-    font: 22px/30px Nanum Myeongjo
+    font: 22px/30px MapoFlowerIsland
   }
 
   h6 {
@@ -310,25 +292,11 @@ h6 {
   }
 
   .tsicon {
-    width : 35px;
+    width: 16px;
   }
 
-  .photo_a {
-    background-size: 375px auto;
-    height:375px;
-    background-position: top;
-  }
-
-  .btn2 {
-    font:500 12px Nanum Myeongjo;
-    border-radius: 1;
-    border: 1px solid gray;
-    overflow: hidden;
-    position: relative;
-    background: none;
-    min-width: 0;
-    min-height: 0;
-    transition: 0.5s all;
+  .tsicon0 {
+    height: 16px;
   }
 
 
@@ -337,100 +305,89 @@ h6 {
 @media (max-width: 360px) {
   .home_intro {
     background-size:360px auto;
-    height:830px;
+    height:1668px;
   }
   
   .photo1 {
     background-size: 360px auto;
-    height:1406px;
+    height:1688px;
   }
 
   .photo2 {
     background-size: 360px auto;
-    height:1688px;
+    height:928px;
   }
 
   .photo_tp {
     background-size: 360px auto;
-    height:360px;
+    height:706px;
   }
 
   .photo3_btn {
     position: absolute;
     margin: 0;
     width: 100%;
-    bottom: 40px;
+    bottom: 520px;
+  }
+
+  .photo4 {
+    background-size: 375px auto;
+    height:450px;
   }
 
   .btn {
-    font:500 18px Nanum Myeongjo;
-  }
-
-  .photo_location {
-    background-size: 375px auto;
-    height:820px;
+    font:500 12px MapoFlowerIsland;
+    color: #DB7093;
+    min-width: 40px;
+    height: 10px;
+    padding: 0px 0px;
+    border: none;
   }
 
   .location_link{
-    bottom: 477px;
+    bottom: 237px;
     text-align: center;
   }
 
   .map-icon{
-    width: 37px;
+    width: 22px;
   }
 
   h3 {
-    font: 20px/28px Nanum Myeongjo
+    font: 14px/20px MapoFlowerIsland
   }
 
   h3 b {
-    font: 24px/32px Nanum Myeongjo
+    font: 16px/24px MapoFlowerIsland
   }
 
   h4 {
-    font: 18px/22px Nanum Myeongjo
+    font: 14px/20px MapoFlowerIsland
   }
 
   h4 b{
-    font: 18px/22px Nanum Myeongjo
+    font: 14px/20px MapoFlowerIsland
   }
 
   h5 {
-    font: 14px/18px Nanum Myeongjo
+    font: 14px/18px MapoFlowerIsland
   }
 
   h5 b {
-    font: 22px/30px Nanum Myeongjo
+    font: 22px/30px MapoFlowerIsland
   }
 
   h6 {
     font : 10px/12px 
   }
 
-  .tsicon0 {
-    width : 35px;
-  }
   .tsicon {
-    width : 30px;
+    width: 16px;
   }
 
-  .photo_a {
-    background-size: 375px auto;
-    height:375px;
-    background-position: top;
+  .tsicon0 {
+    height: 16px;
   }
 
-  .btn2 {
-    font:500 12px Nanum Myeongjo;
-    border-radius: 1;
-    border: 1px solid gray;
-    overflow: hidden;
-    position: relative;
-    background: none;
-    min-width: 0;
-    min-height: 0;
-    transition: 0.5s all;
-  }
 
 }
