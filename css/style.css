@@ -212,7 +212,7 @@ h6 {
 
 /*# 13. Responsive*/
 
-@media (max-width: 375px) {
+@media (max-width: 639px) {
   .home_intro {
     background-size:375px auto;
     height:1737px;
@@ -389,5 +389,91 @@ h6 {
     height: 16px;
   }
 
+@media (max-width: 320px) {
+  .home_intro {
+    background-size:320px auto;
+    height:1483px;
+  }
+  
+  .photo1 {
+    background-size: 320px auto;
+    height:1500px;
+  }
+
+  .photo2 {
+    background-size: 320px auto;
+    height:825px;
+  }
+
+  .photo_tp {
+    background-size: 320px auto;
+    height:628px;
+  }
+
+  .photo3_btn {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    bottom: 460px;
+  }
+
+  .photo4 {
+    background-size: 375px auto;
+    height:400px;
+  }
+
+  .btn {
+    font:500 12px MapoFlowerIsland;
+    color: #DB7093;
+    min-width: 40px;
+    height: 10px;
+    padding: 0px 0px;
+    border: none;
+  }
+
+  .location_link{
+    bottom: 205px;
+    text-align: center;
+  }
+
+  .map-icon{
+    width: 22px;
+  }
+
+  h3 {
+    font: 12px/18px MapoFlowerIsland
+  }
+
+  h3 b {
+    font: 14px/20px MapoFlowerIsland
+  }
+
+  h4 {
+    font: 12px/18px MapoFlowerIsland
+  }
+
+  h4 b{
+    font: 12px/18px MapoFlowerIsland
+  }
+
+  h5 {
+    font: 12px/18px MapoFlowerIsland
+  }
+
+  h5 b {
+    font: 22px/30px MapoFlowerIsland
+  }
+
+  h6 {
+    font : 10px/12px 
+  }
+
+  .tsicon {
+    width: 12px;
+  }
+
+  .tsicon0 {
+    height: 14px;
+  }
 
 }
