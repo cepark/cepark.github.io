@@ -114,6 +114,25 @@
         </div>
     </section>
 
+    <section class="photo_a" data-image="7.png">
+    </section>
+
+
+    <section class="account" id="account">
+        <div class = "container">
+            <h5><b>마음을 담은 축의<br></b></h5>
+            
+            <h5>어려운 시국에, 먼길 오시기 쉽지 않을 줄 압니다.<br>
+                축하하는 마음만으로 감사드립니다. <br><br>
+            <details>
+                <summary> 신랑 측 계좌번호 확인하기 </summary>
+                <p> 우리은행 033-079317-02-001 <br> <button class="btn2" id='btn2'>복사하기</button></p>
+            </details>
+            
+        </div>
+    </section>
+
+
 
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -142,6 +161,10 @@
         }
         $('#btn1').click(function() {
             copyToClipboard('서울시 성동구 서울숲2길 32-14');
+            alert('복사되었습니다. 붙여넣기하여 사용하세요');
+        });
+        $('#btn2').click(function() {
+            copyToClipboard('033 079317 02 001');
             alert('복사되었습니다. 붙여넣기하여 사용하세요');
         });
     </script>

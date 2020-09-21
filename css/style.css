@@ -99,7 +99,7 @@ a {
 .photo1 {
   background-size: 640px auto;
   width: 100%;
-  height: 3000px;
+  height: 2400px;
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
@@ -210,6 +210,44 @@ h6 {
   font : 10px/12px 
 }
 
+
+/*# 12. Account */
+
+.photo_a{
+  background-size: 640px auto;
+  width: 100%;
+  height: 475px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+}
+
+.account{
+  background-size: 640px auto;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+}
+
+.btn2 {
+  font:500 20px MapoFlowerIsland;
+  padding: 8px 6px;
+  border: none;
+  overflow: hidden;
+  position: relative;
+  background: none;
+  min-width: 88px;
+  min-height: 36px;
+  transition: 0.5s all;
+  color: #DB7093;
+}
+
+
+
+
 /*# 13. Responsive*/
 
 @media (max-width: 639px) {
@@ -220,7 +258,7 @@ h6 {
   
   .photo1 {
     background-size: 375px auto;
-    height:1757px;
+    height:1405px;
   }
 
   .photo2 {
@@ -243,6 +281,20 @@ h6 {
   .photo4 {
     background-size: 375px auto;
     height:468px;
+  }
+
+  .photo_a {
+    background-size: 375px auto;
+    height:278px;
+  }
+
+  .btn2 {
+    font:500 15px MapoFlowerIsland;
+    min-width: 40px;
+    color: #DB7093;
+    height: 10px;
+    padding: 0px 0px;
+    border: none;
   }
 
   .btn {
@@ -310,7 +362,7 @@ h6 {
   
   .photo1 {
     background-size: 360px auto;
-    height:1688px;
+    height:1350px;
   }
 
   .photo2 {
@@ -331,7 +383,7 @@ h6 {
   }
 
   .photo4 {
-    background-size: 375px auto;
+    background-size: 360px auto;
     height:450px;
   }
 
@@ -339,6 +391,20 @@ h6 {
     font:500 12px MapoFlowerIsland;
     color: #DB7093;
     min-width: 40px;
+    height: 10px;
+    padding: 0px 0px;
+    border: none;
+  }
+
+  .photo_a {
+    background-size: 360px auto;
+    height:267px;
+  }
+
+  .btn2 {
+    font:500 15px MapoFlowerIsland;
+    min-width: 40px;
+    color: #DB7093;
     height: 10px;
     padding: 0px 0px;
     border: none;
@@ -397,7 +463,7 @@ h6 {
   
   .photo1 {
     background-size: 320px auto;
-    height:1500px;
+    height:1200px;
   }
 
   .photo2 {
@@ -418,7 +484,7 @@ h6 {
   }
 
   .photo4 {
-    background-size: 375px auto;
+    background-size: 320px auto;
     height:400px;
   }
 
@@ -430,6 +496,21 @@ h6 {
     padding: 0px 0px;
     border: none;
   }
+
+  .photo_a {
+    background-size: 320px auto;
+    height:237px;
+  }
+
+  .btn2 {
+    font:500 15px MapoFlowerIsland;
+    min-width: 40px;
+    color: #DB7093;
+    height: 10px;
+    padding: 0px 0px;
+    border: none;
+  }
+
 
   .location_link{
     bottom: 205px;
